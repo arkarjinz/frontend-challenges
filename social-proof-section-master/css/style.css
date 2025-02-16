@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: "League Spartan", serif;
+}
+
+body {
+  font-size: 15px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 50px auto;
+  padding: 2rem;
+  display: flex;
+}
+.container .upper .content {
+  max-width: 480px;
+  text-align: left;
+  margin: auto 0;
+}
+.container .upper .content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  margin: 1rem 0;
+}
+.container .upper .content p {
+  color: hsl(303, 10%, 53%);
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 0.8rem 0;
+}
+.container .upper .card-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2.5rem 2rem;
+}
+.container .upper .card1 {
+  background-color: hsl(300, 24%, 96%);
+}/*# sourceMappingURL=style.css.map */
