@@ -30,7 +30,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.7rem;
 }
 @media (min-width: 992px) {
   body {
