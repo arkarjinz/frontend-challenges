@@ -2,13 +2,13 @@ import React from 'react'
 
 function ContentWithText({imgUrl, description, title}) {
     return (
-        <div className="relative">
+        <div className="relative ">
             <img src={imgUrl} alt="image" className="w-screen"/>
-            <div className="absolute bottom-0 inset-0 flex flex-col items-center justify-center">
-                <h3 className="text-3xl text-Dark-desaturated-cyan font-bold">
+            <div className="absolute mx-auto bottom-24 text-center inset-0 flex flex-col items-center justify-end w-96">
+                <h3 className="text-3xl text-Dark-desaturated-cyan my-8 font-bold">
                     {title}
                 </h3>
-                <p>
+                <p className="leading-7">
                     {description}
                 </p>
             </div>
