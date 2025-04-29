@@ -2,7 +2,7 @@
 
 $Violet: hsl(257, 40%, 49%);
 $Soft-Magenta: hsl(300, 69%, 71%);
-$White : #fff;
+$White: #fff;
 
 * {
   margin: 0;
@@ -28,113 +28,115 @@ $White : #fff;
 }
 
 body {
-    @media (min-width : 992px) {
-      background-image: url("../images/bg-desktop.svg");
-    }
-    background-image: url("../images/bg-mobile.svg");
-    min-height: 100vh;
-    background-color: $Violet;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // padding: 1.7rem;
+  @media (min-width: 992px) {
+    background-image: url("../images/bg-desktop.svg");
+  }
+  background-image: url("../images/bg-mobile.svg");
+  min-height: 100vh;
+  background-color: $Violet;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding: 1.7rem;
 }
 
 .main-container {
-    max-width: 1400px;
-    header {
-         img {
-            width: 13rem;
-            object-fit: contain;
-         }
+  max-width: 1400px;
+  header {
+    img {
+      width: 13rem;
+      object-fit: contain;
     }
+  }
 
-    .hero-container{
-       @media (min-width : 992px) {
-        display: flex;
+  .hero-container {
+    margin-top: 4rem;
+    @media (min-width: 992px) {
+      display: flex;
+    }
+    
+    .left-side {
+      @media (min-width: 992px) {
+       flex-basis: 50%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .right-side {
+      margin: 2rem 3.5rem;
+      @media (min-width: 992px) {
+        flex-basis: 50%;
        }
-        margin-top: 4rem;
-        .left-side {
-            img {
-                width: 100%;
-            }
-         
-        }
-        .right-side {
-            margin: 2rem 3.5rem;
-            h2{
-              @media (max-width: 991px) {
-                text-align: center;
-                font-size: 1rem;
-              }
-
-             font-size: clamp(1.2rem, 3vw, 3rem);
-             color: $White;
-            }
-
-            p {
-              @media (max-width: 991px) {
-                text-align: center;
-                font-size: 0.8rem;
-              }
-              margin: 1.3rem 0;
-              line-height: 1.5;
-              color: #fff;
-            }
-
-            button {
-
-              @media (max-width: 991px) {
-                text-align: center;
-             
-                button {
-                  display: block;
-                  margin-left: auto;
-                  margin-right: auto;
-                }
-              }
-              
-                 color: $Violet;
-                 padding: 0.8rem 4rem;
-                 border-radius: 2rem;
-                 font-size: 18px;
-                 border: 0;
-                 box-shadow: 0 3px 8px rgba(0, 0, 0, 0.584);
-                 transition: 0.5s;
-                 
-                 &:hover {
-                    background-color: $Soft-Magenta;
-                    color: $White;
-                
-                 }
-            }
-
-        }
-    }
-
-    footer {
-        display: flex;
+      h2 {
         @media (max-width: 991px) {
-          justify-content: center;
+          text-align: center;
+          font-size: 1rem;
         }
-        @media (min-width: 992px) {
-          justify-content: end;
-        }
-        gap: 1rem;
-          a {
-            width: 35px;
-            height: 35px;
-            border: 1px solid $White;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            border-radius: 50%;
-            i {
-                color: $White;
-            }
-          }
-    }
 
+        font-size: clamp(1.2rem, 3vw, 3rem);
+        color: $White;
+      }
+
+      p {
+        @media (max-width: 991px) {
+          text-align: center;
+          font-size: 0.8rem;
+        }
+        margin: 1.3rem 0;
+        line-height: 1.5;
+        color: #fff;
+      }
+
+      button {
+        @media (max-width: 991px) {
+          text-align: center;
+
+          button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+
+        color: $Violet;
+        padding: 0.8rem 4rem;
+        border-radius: 2rem;
+        font-size: 18px;
+        border: 0;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.584);
+        transition: 0.5s;
+
+        &:hover {
+          background-color: $Soft-Magenta;
+          color: $White;
+        }
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    @media (max-width: 991px) {
+      justify-content: center;
+    }
+    @media (min-width: 992px) {
+      justify-content: end;
+    }
+    gap: 1rem;
+    a {
+      width: 35px;
+      height: 35px;
+      border: 1px solid $White;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      border-radius: 50%;
+      i {
+        color: $White;
+      }
+    }
+  }
 }

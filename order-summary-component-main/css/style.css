@@ -10,7 +10,6 @@ body {
   background-image: url("../images/pattern-background-mobile.svg");
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   font-family: "Red Hat Display", sans-serif;
   background-repeat: no-repeat;
   background-position: top center;

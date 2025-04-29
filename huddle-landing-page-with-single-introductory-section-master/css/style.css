@@ -53,11 +53,21 @@ body {
     display: flex;
   }
 }
+@media (min-width: 992px) {
+  .main-container .hero-container .left-side {
+    flex-basis: 50%;
+  }
+}
 .main-container .hero-container .left-side img {
   width: 100%;
 }
 .main-container .hero-container .right-side {
   margin: 2rem 3.5rem;
+}
+@media (min-width: 992px) {
+  .main-container .hero-container .right-side {
+    flex-basis: 50%;
+  }
 }
 .main-container .hero-container .right-side h2 {
   font-size: clamp(1.2rem, 3vw, 3rem);
