@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
+import Service from "./components/Service.jsx";
+import Article from "./components/Article.jsx";
 
 function App() {
 
@@ -8,6 +10,8 @@ function App() {
         <>
             <Navbar/>
             <Hero/>
+            <Service/>
+            <Article/>
         </>
     )
 }
