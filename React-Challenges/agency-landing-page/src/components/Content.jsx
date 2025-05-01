@@ -3,8 +3,8 @@ import React from 'react'
 function Content({title,description, lineColor}) {
     return (
         <>
-            <div className="flex justify-center items-center order-2 md:order-1">
-                <div className=" max-w-96">
+            <div className="flex justify-center items-center order-2 md:order-1 min-h-96 max-w-[80%] text-center mx-auto">
+                <div className=" max-w-96 ">
                     <h3 className="font-bold text-4xl max-w-80 ">
                         {title}
 

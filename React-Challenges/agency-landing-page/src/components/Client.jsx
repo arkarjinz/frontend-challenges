@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Client() {
+function Client({testimony, clientImg, name, position}) {
     return (
         <>
           {/*<div>*/}
@@ -11,12 +11,12 @@ function Client() {
           {/*    <h6>{name}</h6>*/}
           {/*    <p>{position}</p>*/}
           {/*</div>*/}
-            <div className="flex flex-col justify-center items-center min-h-dvh">
-                <img src="/images/image-emily.jpg" alt="emily" className="rounded-full w-20"/>
-                <h6>  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-                </h6>
-                <h5> Emily R.</h5>
-                <p>Marketing Director</p>
+            <div className="flex flex-col justify-center items-center">
+                <img src={clientImg} alt="clients" className="rounded-full w-20"/>
+                <p className="leading-8 mt-8 mb-12"> {testimony}
+                </p>
+                <h5 className="font-bold"> {name}</h5>
+                <p className="text-Dark-grayish-blue mt-2">{position}</p>
 
             </div>
 

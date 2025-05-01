@@ -2,7 +2,7 @@ import React from 'react'
 
 function Commercial() {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-4">
+        <div className="grid grid-cols-2 md:grid-cols-4">
             <img src="/images/desktop/image-gallery-milkbottles.jpg" alt="bottle"/>
             <img src="/images/desktop/image-gallery-orange.jpg" alt="orange"/>
             <img src="/images/desktop/image-gallery-cone.jpg" alt="cone"/>
