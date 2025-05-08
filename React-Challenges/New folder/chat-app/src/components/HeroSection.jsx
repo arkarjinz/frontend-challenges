@@ -11,7 +11,7 @@ export const HeroSection = () => {
       <div className="min-h-screen">
         <Background customClass="bg-gradient-to-t from-Light-Violet to-Light-Magenta min-h-[85vh] w-[30%] rounded-b-full -translate-x-26 absolute" />
         <div className="grid grid-cols-2 place-items-center min-h-screen relative z-10">
-          <div className="outline-[12px] outline-white bg-Light-Grayish-Violet max-w-[40%] rounded-2xl min-h-[70vh] shadow-2xl   ">
+          <div className="outline-[12px] outline-white bg-Light-Grayish-Violet w-[300px] rounded-2xl min-h-[70vh] shadow-2xl   ">
             <div className="bg-gradient-to-r from-Light-Violet to-Light-Magenta min-h-16 overflow-hidden  rounded-t-3xl rounded-b-lg relative">
               <div className="absolute bg-white w-[55%] h-9 rounded-full inset-0 mx-auto -top-3 "></div>
               <div className="flex gap-3 items-center justify-between py-4 mt-5 px-3  ">
@@ -39,12 +39,12 @@ export const HeroSection = () => {
               {/* Left Chat messages */}
               <div className="flex flex-col items-start gap-3">
                 <ChatBubble
-                    bgColor="bg-Light-Grayish-Violet"
+                    bgColor="bg-opacity"
                     textColor="text-Moderate-Violet"
                     text="That sounds great. I'd be happy with that."
                 />
                 <ChatBubble
-                    bgColor="bg-Light-Grayish-Violet"
+                    bgColor="bg-opacity"
                     textColor="text-Moderate-Violet"
                     text=" Could you send over some pictures of your dog, please?"
                 />
@@ -74,7 +74,7 @@ export const HeroSection = () => {
               {/* Left Chat messages */}
               <div className="">
                 <ChatBubble
-                    bgColor="bg-Light-Grayish-Violet"
+                    bgColor="bg-opacity"
                     textColor="text-Moderate-Violet"
                     text=" She looks so happy! The time we discussed works. How long
                   shall I take her out for?"

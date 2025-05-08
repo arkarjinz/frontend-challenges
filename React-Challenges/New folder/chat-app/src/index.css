@@ -15,6 +15,7 @@
     --color-Desaturated-Dark-Violet: hsl(271, 15%, 43%);
     --color-Grayish-Blue: hsl(206, 6%, 79%);
     --color-Dark-Grayish-Violet: hsl(270, 7%, 64%);
+    --color-opacity: #9241c814;
 }
 
 body {
