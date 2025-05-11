@@ -3,7 +3,7 @@ import React from 'react'
 function ProfileCard() {
     return (
         <>
-          <div className="bg-Navy-900 w-screen md:max-w-[300px] min-h-[523px]  relative rounded-2xl overflow-hidden">
+          <div className="bg-Navy-900 w-full md:max-w-[300px] min-h-[523px]  relative rounded-2xl overflow-hidden">
               <div className="bg-Purple-600 min-h-[65%] w-full absolute rounded-xl p-8">
                    <div className="">
                        <div>

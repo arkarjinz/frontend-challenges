@@ -3,7 +3,7 @@ import React from 'react'
 function TimeCard({time, image, cardTitle, subTime, bgColor}) {
     return (
         <>
-            <div className={`${bgColor} relative w-screen md:max-w-[300px] min-h-[250px]  rounded-xl overflow-hidden`}>
+            <div className={`${bgColor} relative w-full md:max-w-[300px] min-h-[250px]  rounded-xl overflow-hidden`}>
                 <img src={image} alt="icon" className="absolute right-4"/>
              <div className="bg-Navy-900 absolute w-full min-h-[80%] bottom-0  rounded-t-xl p-7 flex flex-wrap flex-col justify-between">
                  <div className="flex justify-between items-center">
